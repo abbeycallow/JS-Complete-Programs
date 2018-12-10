@@ -1,0 +1,33 @@
+<html style="max-width: 50% ; text-align: center">
+
+<body style="background-color: burlywood">
+    <div style="text-align: center">
+        <h2 style="color:darkblue">A + P RECTANGLE'S</h2>
+        <h3 style="color: darkblue">Enter Length And Width</h3>
+    </div>
+    <hr>
+    <div class="row">
+        <input type="number" id="height" placeholder="length">
+        <input type="number" id="width" placeholder="width">
+        <button type="button" onclick="getHeightAndWidth()">Set Values</button><br>
+        <hr>
+    </div>
+    <div>
+        
+    </div>
+    <div class="row" >
+         <button type="button" onclick="area(height,width)">GET AREA</button>
+         <h3> Area = <label id="heightvalue"></label> * <label id="widthvalue"></label> </h3>
+         <h4 id="areaOfRectangle" ><h4><br>
+        <hr>
+    </div><label></label>
+    <div class="row" style="display: inline-block">
+            <button type="button" onclick="perimeter(height, width)">GET PERIMETER</button>
+            <h3 >Perimeter = 2 * ( <label id="heightvalue2"></label> + <label id="widthvalue2"></label>)</h3>
+            <h4 id="perimeterOfRectangle"></h4><br>
+            <hr>
+        </div>
+    <script src="areaOfRec.js"></script>
+</body>
+
+</html>
