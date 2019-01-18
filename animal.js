@@ -99,6 +99,16 @@ tame("l")
 tame("d")
 tame("p")
 
+function mate(babie) {
+    if(babie < 10) {
+        console.log("def dont want to get down on the D");
+    }
+    else(babie >10) 
+        console.log("def Want to get down on the D");
+    
+}
+mate(8)
+mate(33)
 
 
 

@@ -17,3 +17,6 @@ function endsWLY(string) {
     }else {
         console.log("False");}
     }
+
+    
+    
